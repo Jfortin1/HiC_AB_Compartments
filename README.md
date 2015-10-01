@@ -38,6 +38,8 @@ chr1	1300000	1399999	-0.585600098287715	open
 | hic_compartments_100kb_imr90_2013.txt | Calculated A/B compartments for Hi-C IMR90 dataset | [2] |
 | dnase_compartments_100kb_ebv.txt | Estimated A/B compartments from DNase EVBV dataset | [4] |
 | dnase_compartments_100kb_imr90.txt | Estimated A/B compartments from DNase IMR90 dataset | [5] |
+| meth_compartments_100kb_ebv.txt | Estimated A/B compartments from Methylation EBV dataset | [6] |
+| meth_compartments_100kb_fibro.txt | Estimated A/B compartments from Methylation Fibroblast dataset | [7] |
 
 
 ## Scripts
