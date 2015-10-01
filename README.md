@@ -30,12 +30,14 @@ chr1	1300000	1399999	-0.585600098287715	open
 
 ## Description of the files
 
-| Files        | Description           | 
-| ------------- |-------------| 
-| hic_compartments_100kb_ebv_2013.txt     | Bladder Urothelial Carcinoma | 
-| hic_compartments_100kb_ebv_2014.txt | Breast invasive carcinoma |
-| hic_compartments_100kb_imr90_2013.txt | Colon adenocarcinoma |
-| hic_compartments_100kb_imr90_2013.txt | Head and Neck squamous cell carcinoma |
+| Files        | Description  | Reference 
+| ------------- |-------------| ------------- |
+| hic_compartments_100kb_ebv_2013.txt     | Calculated A/B compartments for GM12878 dataset | [1] | 
+| hic_compartments_100kb_ebv_2014.txt | Calculated A/B compartments for Hi-C GM12878 dataset | [2] |
+| hic_compartments_100kb_imr90_2013.txt | Calculated A/B compartments for Hi-C IMR90 dataset | [1] |
+| hic_compartments_100kb_imr90_2013.txt | Calculated A/B compartments for Hi-C IMR90 dataset | [3] |
+| dnase_compartments_100kb_ebv.txt | Estimated A/B compartments from DNase EVBV dataset | [3] |
+| dnase_compartments_100kb_imr90.txt | Estimated A/B compartments from DNase IMR90 dataset | [4] |
 
 
 ## Scripts
