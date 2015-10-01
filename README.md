@@ -28,7 +28,7 @@ chr1	1300000	1399999	-0.585600098287715	open
 
 ```
 
-## Description of the files in /data
+## Description of the files
 
 | Files        | Description           | 
 | ------------- |-------------| 
