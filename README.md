@@ -49,7 +49,7 @@ The code used to generate A/B compartments from 450k methylation array data is i
 
 ## Visualization 
 
-The subdirectory `visualization` contains an R script `visualization.R` to load the data into R and create a barplot of the eigenvector values (see image above), as well as a little function called `convert2GRanges()` that will convert the data to a GRanges object for convenience. Positive and negative values represent closed and open domains respectively. 
+The script [visualization.R](https://github.com/Jfortin1/TCGA_AB_Compartments/blob/master/scripts/visualization.R) is a script to load the data into R and create a barplot of the eigenvector values (see image above), as well as a little function called `convert2GRanges()` that will convert the data to a GRanges object for convenience. Positive and negative values represent closed and open domains respectively. 
 
 ## Note about preprocessing
 
