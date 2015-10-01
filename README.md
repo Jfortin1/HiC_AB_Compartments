@@ -34,10 +34,10 @@ chr1	1300000	1399999	-0.585600098287715	open
 | ------------- |-------------| ------------- |
 | hic_compartments_100kb_ebv_2013.txt     | Calculated A/B compartments for GM12878 dataset | [1] | 
 | hic_compartments_100kb_ebv_2014.txt | Calculated A/B compartments for Hi-C GM12878 dataset | [2] |
-| hic_compartments_100kb_imr90_2013.txt | Calculated A/B compartments for Hi-C IMR90 dataset | [1] |
 | hic_compartments_100kb_imr90_2013.txt | Calculated A/B compartments for Hi-C IMR90 dataset | [3] |
-| dnase_compartments_100kb_ebv.txt | Estimated A/B compartments from DNase EVBV dataset | [3] |
-| dnase_compartments_100kb_imr90.txt | Estimated A/B compartments from DNase IMR90 dataset | [4] |
+| hic_compartments_100kb_imr90_2013.txt | Calculated A/B compartments for Hi-C IMR90 dataset | [2] |
+| dnase_compartments_100kb_ebv.txt | Estimated A/B compartments from DNase EVBV dataset | [4] |
+| dnase_compartments_100kb_imr90.txt | Estimated A/B compartments from DNase IMR90 dataset | [5] |
 
 
 ## Scripts
@@ -49,4 +49,36 @@ The code used to generate A/B compartments from 450k methylation array data is i
 The script [visualization.R](https://github.com/Jfortin1/TCGA_AB_Compartments/blob/master/scripts/visualization.R) is a script to load the data into R and create a barplot of the eigenvector values (see image above), as well as a little function called `convert2GRanges()` that will convert the data to a GRanges object for convenience. Positive and negative values represent closed and open domains respectively. 
 
 ## Note about preprocessing
+
+## References
+
+[1] Selvaraj S, Dixon JR, Bansal V, Ren B. Whole-genome haplotype
+reconstruction using proximity-ligation and shotgun sequencing. Nat
+Biotechnol. 2013;31:1111–18. doi:10.1038/nbt.2728.
+
+[2] Rao SSP, Huntley MH, Durand NC, Stamenova EK, Bochkov ID,
+Robinson JT, et al. A 3D map of the human genome at kilobase resolution
+reveals principles of chromatin looping. Cell. 2014;159:1665–80.
+doi:10.1016/j.cell.2014.11.021
+
+[3] Dixon JR, Selvaraj S, Yue F, Kim A, Li Y, Shen Y, et al. Topological
+domains in mammalian genomes identified by analysis of chromatin
+interactions. Nature. 2012;485:376–80. doi:10.1038/nature11082.
+
+[4] Degner JF, Pai AA, Pique-Regi R, Veyrieras JB, Gaffney DJ, Pickrell JK,
+et al. DNase sensitivity QTLs are a major determinant of human
+expression variation. Nature. 2012;482:390–4. doi:10.1038/nature10808
+
+[5] Bernstein BE, Stamatoyannopoulos JA, Costello JF, Ren B, Milosavljevic
+A, Meissner A, et al. The NIH roadmap epigenomics mapping consortium.
+Nat Biotechnol. 2010;28:1045–8. doi:10.1038/nbt1010-1045
+
+[6] Heyn H, Moran S, Hernando-Herraez I, Sayols S, Gomez A, Sandoval J,
+et al. DNA methylation contributes to natural human variation. Genome
+Res. 2013;23:1363–72. doi:10.1101/gr.154187.112.
+
+[7] Wagner JR, Busche S, Ge B, Kwan T, Pastinen T, Blanchette M. The
+relationship between DNA methylation, genetic and expression
+inter-individual variation in untransformed human fibroblasts. Genome
+Biol. 2014;15:37. doi:10.1093/bioinformatics/bth088.
 
