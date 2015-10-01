@@ -4,7 +4,7 @@
 
 Analysis of Hi-C data has shown that the genome can be divided into two compartments
 called A/B compartments. These compartments are cell-type specific and are
-associated with open and closed chromatin. In our recent Genome Biology paper, ([Fortin et al., 2015](http://www.genomebiology.com/2015/16/1/180)), we showed that we can estimate A/B compartments from 450k methylation array data as well as DNase hypersensitivity data. This GitHub repo contains the genome-wide A/B compartments computed for different Hi-C datasets, as well as the A/B compartments estimatad from methylation and DNase data. All the data are at at resolution 100kb.
+associated with open and closed chromatin. In our recent Genome Biology paper, ([Fortin et al., 2015](http://www.genomebiology.com/2015/16/1/180)), we showed that we can estimate A/B compartments from 450k methylation array data as well as DNase hypersensitivity data. This GitHub repo contains the genome-wide A/B compartments computed for different Hi-C datasets, as well as the A/B compartments estimatad from methylation and DNase data. All the data are at at resolution 100kb. For the A/B compartmentes estimated for 12 different cancer types from TCGA, please visit the following GitHub repo: [TCGA A/B compartments](https://github.com/Jfortin1/TCGA_AB_Compartments).
 
 Please cite our Genome Biology paper if using these data:
 
