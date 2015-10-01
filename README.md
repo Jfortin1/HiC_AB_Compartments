@@ -1,1 +1,1 @@
-# HIC_AB_Compartments
+# HiC_AB_Compartments
