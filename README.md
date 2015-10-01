@@ -32,18 +32,11 @@ chr1	1300000	1399999	-0.585600098287715	open
 
 | Files        | Description           | 
 | ------------- |-------------| 
-| BLCA     | Bladder Urothelial Carcinoma | 
-| BRCA | Breast invasive carcinoma |
-| COAD | Colon adenocarcinoma |
-| HNSC | Head and Neck squamous cell carcinoma |
-| KIRC | Kidney renal clear cell carcinoma |
-| KIRP | Kidney renal papillary cell carcinoma |
-| LIHC | Liver hepatocellular carcinoma |
-| LUAD | Lung adenocarcinoma |
-| LUSC | Lung squamous cell carcinoma |
-| PRAD | Prostate adenocarcinoma |
-| THCA | Thyroid carcinoma |
-| UCEC | Uterine Corpus Endometrial Carcinoma |
+| hic_compartments_100kb_ebv_2013.txt     | Bladder Urothelial Carcinoma | 
+| hic_compartments_100kb_ebv_2014.txt | Breast invasive carcinoma |
+| hic_compartments_100kb_imr90_2013.txt | Colon adenocarcinoma |
+| hic_compartments_100kb_imr90_2013.txt | Head and Neck squamous cell carcinoma |
+
 
 ## Scripts
 
