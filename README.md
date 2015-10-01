@@ -28,9 +28,9 @@ chr1	1300000	1399999	-0.585600098287715	open
 
 ```
 
-## Datasets analyzed
+## Description of the files in /data
 
-| Abbreviation        | Full name           | 
+| Files        | Description           | 
 | ------------- |-------------| 
 | BLCA     | Bladder Urothelial Carcinoma | 
 | BRCA | Breast invasive carcinoma |
