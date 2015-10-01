@@ -30,7 +30,7 @@ chr1	1300000	1399999	-0.585600098287715	open
 
 ## Description of the files
 
-| Files        | Description  | Reference 
+| Files        | Description  | Reference Dataset
 | ------------- |-------------| ------------- |
 | hic_compartments_100kb_ebv_2013.txt     | Calculated A/B compartments for GM12878 dataset | [1] | 
 | hic_compartments_100kb_ebv_2014.txt | Calculated A/B compartments for Hi-C GM12878 dataset | [2] |
